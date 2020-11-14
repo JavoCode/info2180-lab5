@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 $host = 'localhost';
 $username = 'lab5_user';
 $password = 'password123';
@@ -6,6 +7,8 @@ $dbname = 'world';
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
 $stmt = $conn->query("SELECT * FROM countries");
+
+filter_input(INPUT_GET,"country",FILTER_SANITIZE_STRING)
 
 $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
