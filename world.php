@@ -14,7 +14,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
-<table class="table table-hover">
+<table class="table table-hover table-sm table-bordered">
   <tr>
     <th>Country Name</th>
     <th>Continent</th>

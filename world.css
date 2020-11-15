@@ -1,1 +1,29 @@
 /* Add your own styles */
+
+
+
+#result {
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#controls {
+    margin: auto;
+    margin-top:5%;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-right:25%;
+}
+
+
+
+#country {
+width: 500px;
+}
+
+#container {
+    display:grid;
+    row-gap: 10%;
+}
