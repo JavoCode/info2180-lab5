@@ -6,6 +6,7 @@
     margin-top:2%;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
 #controls {
@@ -27,3 +28,21 @@ width: 500px;
     display:grid;
     row-gap: 10%;
 }
+
+header{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    height:20vh;
+    padding:0;
+    background-color: #e4f3f6;
+    display:grid; 
+    grid-template-columns: auto auto;
+    
+}
+
+img{
+    width:10%;
+}
+
